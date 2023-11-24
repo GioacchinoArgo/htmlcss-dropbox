@@ -10,7 +10,13 @@
 body {
     font-family: 'Open Sans', sans-serif;
     background-color: #fff;
-    padding-top: 100px;
+    padding-top: 80px;
+}
+
+h1 {
+    font-size: 5rem;
+    font-weight: 800;
+    margin-bottom: 30px;
 }
 
 a {
@@ -46,6 +52,27 @@ img {
     margin: 0 auto;
 }
 
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.col-30 {
+flex-basis: 30%;
+}
+
+.col-70 {
+    flex-basis: 70%;
+    }
+
+.size {
+    font-size: 4rem;
+}
+
+.mb-30 {
+    margin-bottom: 30px;
+}
 /* button */
 .btn {
     display: inline-block;
@@ -84,3 +111,13 @@ img {
     display: flex;
     align-items: center;
 }
+
+/* * spotlight */
+
+.spotlight {
+    height: 730px;
+    margin-bottom: 120px;
+    padding-top: 90px;
+    background-color: #b4d0e7;
+}
+
