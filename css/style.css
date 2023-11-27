@@ -183,7 +183,7 @@ flex-basis: 30%;
 
 .arrow {
     font-size: 3.4rem;
-    padding-top: 70px;
+    padding-top:60px;
 }
 
 .m-0 {
@@ -212,14 +212,6 @@ flex-basis: 30%;
 
 .mb-140 {
     margin-bottom: 140px;
-}
-
-.pb-166 {
-    padding-bottom: 166px;
-}
-
-.pb-214 {
-    padding-bottom: 214px;
 }
 
 .pt-20 {
@@ -564,7 +556,6 @@ flex-basis: 30%;
 /* * footer */
 
 footer {
-    width: 1;
     height: 550px;
     padding-top: 20px;
     background-color: black;
