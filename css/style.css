@@ -41,6 +41,7 @@ body {
 }
 
 .hr-card {
+    ma
     display: block;
     width: 50px;
     border-top: 1px solid #D0D0D3;
@@ -117,6 +118,10 @@ img {
     display: flex;
 }
 
+.ib {
+    display: inline-block;
+}
+
 /* * Utils */
 
 /* Layout */
@@ -176,6 +181,10 @@ flex-basis: 30%;
 .arrow {
     font-size: 3.4rem;
     padding-top: 70px;
+}
+
+.m-0 {
+    margin: 0;
 }
 
 .mb-10 {
@@ -274,14 +283,10 @@ flex-basis: 30%;
 
 .btn-black {
     font-size: 16px;
-    padding-left: 50px;
-    padding-right: 50px;
-    margin-left: 250px;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-left: 200px;
     color: black;
-}
-
-text {
-    vertical-align: middle;
 }
 
 /* * header */
@@ -339,6 +344,7 @@ text {
 }
 
 .content-card {
+    height: 850px;
     padding-top: 30px;
     padding-left: 30px;
     padding-right: 30px;
@@ -458,8 +464,6 @@ text {
 
 .square {
     display: flex;
-    height: 300px;
-    width: 200px;
     flex-basis: calc(100% / 2);
 }
 
@@ -520,11 +524,30 @@ text {
 /* free trial */
 
 .free-trial {
-    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
     background-color: #B4D0E7;
 }
 
 .txt-trial {
+    font-weight: 550;
     color: #61082B;
+}
+
+.txt-b {
+    font-weight: 550;
+}
+
+/* FAQ */
+
+.hr-faq {
+    width: 1000px;
+    border-top: 1px solid gray;
+}
+
+.ad {
+    margin-left: 270px;
 }
 
