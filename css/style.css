@@ -41,7 +41,6 @@ body {
 }
 
 .hr-card {
-    ma
     display: block;
     width: 50px;
     border-top: 1px solid #D0D0D3;
@@ -170,6 +169,10 @@ flex-basis: 30%;
     gap: 40px;
 }
 
+.gap60{
+    gap: 60px;
+}
+
 .gap20 {
     gap: 20px;
 }
@@ -184,7 +187,7 @@ flex-basis: 30%;
 }
 
 .m-0 {
-    margin: 0;
+    margin: 0 auto;
 }
 
 .mb-10 {
@@ -243,6 +246,13 @@ flex-basis: 30%;
     margin-top: 40px;
 }
 
+.mt-80 {
+    margin-top: 80px;
+}
+
+.m-0 {
+    margin: 0;
+}
 /* button */
 .btn {
     display: inline-block;
@@ -551,3 +561,56 @@ flex-basis: 30%;
     margin-left: 270px;
 }
 
+/* * footer */
+
+footer {
+    width: 1;
+    height: 550px;
+    padding-top: 20px;
+    background-color: black;
+}
+
+.row-footer {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.col-footer {
+    padding-top: 80px;
+    flex-basis: calc(100% / 5 - 240px / 5);
+}
+
+.col-footer > * {
+    color: white;
+}
+
+.content-footer {
+    background-color: black;
+}
+
+
+.footer-card {
+   margin-top: 80px;
+   margin-bottom: 20px;
+    display: block;
+    width: 100px;
+    border-top: 1px solid #fff;
+}
+
+.it {
+    font-size: 16px;
+    color: #999999;
+}
+
+.planet {
+    font-size: 16px;
+    color: #999999;
+}
+
+.ap {
+    font-size: 16px;
+    color: #999999;
+    position: relative;
+    top: 5px;
+}
